@@ -35,6 +35,7 @@ const App = () => {
 
   return (
     <div className="app">
+      <h1>Previsão do Tempo</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
